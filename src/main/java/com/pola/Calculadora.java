@@ -8,4 +8,8 @@ public class Calculadora {
     public int rest(int a, int b) {
         return a + b;
     }
+
+    public int dividir(int a, int b) {
+        return a / b;
+    }
 }
