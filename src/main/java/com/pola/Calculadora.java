@@ -1,6 +1,7 @@
 package com.pola;
 
 public class Calculadora {
+    // funcion para sumar
     public int sumar(int a, int b) {
         return a + b;
     }
