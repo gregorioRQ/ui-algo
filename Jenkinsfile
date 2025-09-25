@@ -3,12 +3,13 @@ pipeline{
     stages{
         stage("Build"){
             steps{
-                sh "mvn clean install"
+                # Se usa bat porque jenkins está corriendo en windows
+                bat "mvn clean install"
             }
         }
         stage("Test"){
             steps{
-                sh "mvn test"
+                bat "mvn test"
             }
         }
         stage("Deploy"){
